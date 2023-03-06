@@ -38,16 +38,16 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://www.facebook.com/profile.php?id=100086941385881" target="blank">
+            <a href="https://www.facebook.com/profile.php?id=100086941385881" target="blank" className="hover:translate-y-[-3px]">
               <FaFacebookF className="cursor-pointer" size={20} />
             </a>
-            <a href="https://www.instagram.com/" target="blank">
+            <a href="https://www.instagram.com/" target="blank" className="hover:translate-y-[-3px]">
               <FaInstagram className="cursor-pointer" size={20} />
             </a>
-            <a href="https://github.com/thanghn14" target="blank">
+            <a href="https://github.com/thanghn14" target="blank" className="hover:translate-y-[-3px]">
               <FaGithub className="cursor-pointer" size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/phillip-ho-048872253/" target="blank">
+            <a href="https://www.linkedin.com" target="blank" className="hover:translate-y-[-3px]">
               <FaLinkedinIn className="cursor-pointer" size={20} />
             </a>
           </div>

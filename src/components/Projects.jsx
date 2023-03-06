@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import crmImg from "../assets/imgs/crm.png";
-import hrmImg from "../assets/imgs/hrm.png";
-import learnImg from "../assets/imgs/elearning.png";
+import crmImg from "../assets/imgs/crm2.png";
+import hrmImg from "../assets/imgs/hrm2.png";
+import learnImg from "../assets/imgs/elearn.jpg";
 import saleImg from "../assets/imgs/sales2.png";
 
 const Projects = () => {
@@ -17,10 +17,10 @@ const Projects = () => {
         quo, reiciendis qui fugiat quas non, quos praesentium?
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={crmImg} title='CRM System'/>
-        <ProjectItem img={hrmImg} title='HRM System'/>
-        <ProjectItem img={learnImg} title='Elearning'/>
-        <ProjectItem img={saleImg} title='Sales website'/>
+        <ProjectItem img={crmImg} title='CRM System' company='Exsoft JSC' tech='Ant Design - ReactJS/Typesript'/>
+        <ProjectItem img={hrmImg} title='DILIGO HRM' company='Diligo Holings' tech='ReactJS - MUI'/>
+        <ProjectItem img={learnImg} title='D Elearning' company='Diligo Holings' tech='ReactJS - Bootstrap'/>
+        <ProjectItem img={saleImg} title='Sales website' company='FPT Polytechnic' tech='ReactJS - Angular - SpringBoot'/>
       </div>
     </div>
   );
