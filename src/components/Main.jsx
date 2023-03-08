@@ -38,7 +38,7 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://www.facebook.com/profile.php?id=100086941385881" target="blank" className="hover:translate-y-[-3px]">
+            <a href="https://www.facebook.com/" target="blank" className="hover:translate-y-[-3px]">
               <FaFacebookF className="cursor-pointer" size={20} />
             </a>
             <a href="https://www.instagram.com/" target="blank" className="hover:translate-y-[-3px]">
