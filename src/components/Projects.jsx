@@ -12,9 +12,7 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto ipsam ut
-        maiores mollitia nostrum dicta voluptatem quam rem ex at impedit ipsa
-        quo, reiciendis qui fugiat quas non, quos praesentium?
+      As a Frontend developer with experience working with real projects in an enterprise environment, I can create products that bring great experiences to my customers.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem img={crmImg} title='CRM System' company='Exsoft JSC' tech='Ant Design - ReactJS/Typesript'/>
