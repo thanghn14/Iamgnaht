@@ -12,13 +12,35 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-      As a Frontend developer with experience working with real projects in an enterprise environment, I can create products that bring great experiences to my customers.
+        As a Frontend developer with experience working on real projects in an
+        enterprise environment, I am able to create products that bring great
+        experiences for my customers.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={crmImg} title='CRM System' company='Exsoft JSC' tech='Ant Design - ReactJS/Typesript'/>
-        <ProjectItem img={hrmImg} title='DILIGO HRM' company='Diligo Holings' tech='ReactJS - MUI'/>
-        <ProjectItem img={learnImg} title='D Elearning' company='Diligo Holings' tech='ReactJS - Bootstrap'/>
-        <ProjectItem img={saleImg} title='Sales website' company='FPT Polytechnic' tech='ReactJS - Angular - SpringBoot'/>
+        <ProjectItem
+          img={crmImg}
+          title="CRM System"
+          company="Exsoft JSC"
+          tech="Ant Design - ReactJS/Typesript"
+        />
+        <ProjectItem
+          img={hrmImg}
+          title="DILIGO HRM"
+          company="Diligo Holings"
+          tech="ReactJS - MUI"
+        />
+        <ProjectItem
+          img={learnImg}
+          title="D Elearning"
+          company="Diligo Holings"
+          tech="ReactJS - Bootstrap"
+        />
+        <ProjectItem
+          img={saleImg}
+          title="Sales website"
+          company="FPT Polytechnic"
+          tech="ReactJS - Angular - SpringBoot"
+        />
       </div>
     </div>
   );
