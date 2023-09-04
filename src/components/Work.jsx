@@ -13,12 +13,12 @@ const data = [
   },
   {
     id: 2,
-    time: "01/2022",
+    time: "11/2021",
     title: "Diligo Holdings",
     duration: "9 month",
     position: "Frontend Developer",
     details:
-      "Participate in developing D Elearning and Diligo HRM website",
+      "Diligo holdings' human resource management system and online learning system uses ReactJS",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const data = [
     duration: "3 year",
     position: "Fullstack Developer",
     details:
-      "Study and work as a fullstack developer",
+      "Study and work as a professional Developer",
   },
 ];
 
